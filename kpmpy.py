@@ -221,7 +221,3 @@ class KPM:
         # スペクトルの計算
         spec = self._get_spectrum(x)
         return spec
-
-    # 未実装
-    def get_Green(self, site_i=0, site_j=0):
-        self.moments = self._get_moments_ij(site_i, site_j)
